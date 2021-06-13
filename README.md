@@ -37,3 +37,7 @@ There are Windows x64 and x86 binaries in the repository. It should compile on L
 4) (Already done for you for Windows) Download official sqlite3 binaries, put the dll in the bin_XX folder. For windows, generate .lib file to the lib_xx folder from the .dll using the implib tool downloaded here: https://digitalmars.com/download/freecompiler.html (basic utilites); command: `implib /system sqlite3.lib sqlite3.dll` ( https://digitalmars.com/ctg/implib.html ). Alternatively, you can download it from here: https://github.com/buggins/ddbc/tree/master/libs (Also already present for windows)
 5) Run `dub build --build=release --arch=x86_64` (or without the `--arch=x86_64` for x86 build) in the root project folder (where dub.sdl is)
 6) A binary should appear in the bin_XX folder
+
+
+
+<I>Simply a copy, this will eventually be my (CircuitCoder4696's) attempt to document as many of the different parts as I can, later this autumn.</I>
