@@ -1,5 +1,3 @@
-<I>Simply a copy, this will eventually be my (CircuitCoder4696's) attempt to document as many of the different parts as I can, later this autumn.</I>  
-
 # Anothercraft - visualisation of a procedurally generated voxel terrain
 A master thesis project. Basically a Minecraft clone, I was focusing on accelerating things on GPU. There is a master thesis text in the repository, however it is in Czech. There's also a first few chapters of the english master thesis translated, then I lost the drive. I might eventually document some of the techniques on a blog or something.
 
