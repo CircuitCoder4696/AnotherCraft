@@ -1,7 +1,7 @@
-module ge01.client.gl.gltexture;
+module ge03.client.gl.gltexture;
 
-import ac.client.gl.glresourcemanager;
-import ac.client.gl.glstate;
+import ge02.client.gl.glresourcemanager;
+import ge02.client.gl.glstate;
 import ge00.common.math.vector;
 import bindbc.opengl;
 
