@@ -1,4 +1,4 @@
-module ac.client.gl.glbuffer;
+module ge01.client.gl.glbuffer;
 
 import bindbc.opengl;
 import std.container.array;
@@ -6,9 +6,9 @@ import std.meta;
 import std.range;
 
 import ac.client.gl.glresourcemanager;
-import ac.client.gl.gltypes;
+import ge00.client.gl.gltypes;
 import ac.client.gl.glstate;
-import ac.common.math.vector;
+import ge00.common.math.vector;
 
 final class GLBuffer(T_) {
 
