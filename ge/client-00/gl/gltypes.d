@@ -1,4 +1,4 @@
-module ac.client.gl.gltypes;
+module ge00.client.gl.gltypes;
 
 import bindbc.opengl;
 
