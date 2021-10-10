@@ -1,8 +1,8 @@
-module ac.client.gl.gltexture;
+module ge00.client.gl.gltexture;
 
 import ac.client.gl.glresourcemanager;
 import ac.client.gl.glstate;
-import ac.common.math.vector;
+import ge00.common.math.vector;
 import bindbc.opengl;
 
 class GLTexture {
