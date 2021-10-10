@@ -1,4 +1,4 @@
-module ac.client.gl.glbufferatlas;
+module ge01.client.gl.glbufferatlas;
 
 import bindbc.opengl;
 import std.container.array;
@@ -9,11 +9,11 @@ import std.range;
 import std.string;
 import std.traits;
 
-import ac.client.gl.gltypes;
+import ge00.client.gl.gltypes;
 import ac.client.gl.glstate;
 import ac.client.gl.glresourcemanager;
 import ac.client.resources;
-import ac.common.math.vector;
+import ge00.common.math.vector;
 
 alias GLBufferAtlasSize = GLsizei;
 
@@ -172,7 +172,7 @@ private:
 		const Size oldSize = size_;
 		size_ *= 2;
 
-		import ac.common.util.log;
+		import ge00.common.util.log;
 
 		writeLog(typeof(this).stringof, " resized to ", size_, " elements; free size ", freeSize_, "/", oldSize, " (", float(freeSize_) / oldSize * 100, " %)");
 
