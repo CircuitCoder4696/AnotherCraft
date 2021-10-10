@@ -1,4 +1,4 @@
-module ge00.client.gl.gltexture;
+module ge01.client.gl.gltexture;
 
 import ac.client.gl.glresourcemanager;
 import ac.client.gl.glstate;
